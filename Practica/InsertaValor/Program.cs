@@ -9,6 +9,7 @@ void imprime(int[] lis)
 }
 
 int[] lista = { 5, 6, 8, 9 };
+// 5 = pos 0 | 6 = pos 1 | 8 = pos 2 ...
 
 imprime(lista);
 
@@ -25,6 +26,7 @@ int p = Convert.ToInt32(Console.ReadLine());
 Array.Resize(ref lista, lista.Length + 1);
 for (int x = lista.Length - 1; x > p; x--)
 {
+    // x = x-1
     lista[x] = lista[x - 1];
 }
 
