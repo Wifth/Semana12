@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\UPN\\Documents\\Ao-C2\\Semana12\\Practica\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EB3E1B77-0D1F-4125-A7B5-F1168B481C58}|InsertaValor\\InsertaValor.csproj|c:\\users\\upn\\documents\\ao-c2\\semana12\\practica\\insertavalor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB3E1B77-0D1F-4125-A7B5-F1168B481C58}|InsertaValor\\InsertaValor.csproj|solutionrelative:insertavalor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33AD0712-2FB7-48A7-B2E9-0D30D42D80ED}|Ejercicio01\\Ejercicio01.csproj|c:\\users\\upn\\documents\\ao-c2\\semana12\\practica\\ejercicio01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33AD0712-2FB7-48A7-B2E9-0D30D42D80ED}|Ejercicio01\\Ejercicio01.csproj|solutionrelative:ejercicio01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -20,11 +24,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Documents\\Ao-C2\\Semana12\\Practica\\InsertaValor\\Program.cs",
+              "RelativeDocumentMoniker": "InsertaValor\\Program.cs",
+              "ToolTip": "C:\\Users\\UPN\\Documents\\Ao-C2\\Semana12\\Practica\\InsertaValor\\Program.cs*",
+              "RelativeToolTip": "InsertaValor\\Program.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowB8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T15:29:10.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\UPN\\Documents\\Ao-C2\\Semana12\\Practica\\Ejercicio01\\Program.cs",
               "RelativeDocumentMoniker": "Ejercicio01\\Program.cs",
               "ToolTip": "C:\\Users\\UPN\\Documents\\Ao-C2\\Semana12\\Practica\\Ejercicio01\\Program.cs",
               "RelativeToolTip": "Ejercicio01\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T12:49:59.389Z",
               "EditorCaption": ""
