@@ -37,6 +37,36 @@ namespace Ejercicio01
             Console.Write("POSICIÓN");
             Console.SetCursorPosition(30, 12);
             Console.Write("EDADES");
+            for (int i = 0; i < edades.Length; i++)
+            {
+                Console.SetCursorPosition(10, 13 + i);
+                Console.Write(i);
+                Console.SetCursorPosition(30, 13 + i);
+                Console.Write(edades[i]);
+            }
+        }
+        public void eliminar(byte ed)
+        {
+            int indice = Array.IndexOf(edades, ed);
+
+            if (indice != -1)
+            {
+                for (int i = indice; i < edades.Length - 1; i++)
+                {
+                    edades[i] = edades[i + 1];
+                }
+                Array.Resize(ref edades, edades.Length - 1);
+                posicion--;
+                Console.WriteLine("\nEdad eliminada correctamente.");
+            }
+            else
+            {
+                Console.WriteLine("\nNo se puede eliminar porque no existe"); 
+            }
+        }
+        public void ordenar()
+        {
+
         }
     }
 }
