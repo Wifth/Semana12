@@ -30,8 +30,12 @@ do
         case 0: Environment.Exit(0); break;
         case 1: e.insertar(); break;
         case 2: e.mostrar(); break;
-        case 3: break;
-        case 4: break;
+        case 3:
+            Console.Write("\nIngrese edad a eliminar: ");
+            byte ed = byte.Parse(Console.ReadLine());
+            e.eliminar(ed);  
+            break;
+        case 4: e.ordenar(); break;
     }
     Console.Write("\nDesea regresar al menú? [si]: ");
     regresar = Console.ReadLine().ToLower();
