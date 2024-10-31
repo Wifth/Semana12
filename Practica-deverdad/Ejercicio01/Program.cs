@@ -1,7 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using Ejercicio01;
+
 byte opcion;
 string regresar;
+estudiante e = new estudiante();
+
 do
 {
 
@@ -24,12 +28,12 @@ do
     switch (opcion)
     {
         case 0: Environment.Exit(0); break;
-        case 1: break;
-        case 2: break;
+        case 1: e.insertar(); break;
+        case 2: e.mostrar(); break;
         case 3: break;
         case 4: break;
     }
-    Console.Write("Desea regresar al menú? [si]: ");
+    Console.Write("\nDesea regresar al menú? [si]: ");
     regresar = Console.ReadLine().ToLower();
     Console.Clear();
 } while (regresar == "si");
